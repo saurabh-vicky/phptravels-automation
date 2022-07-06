@@ -1,4 +1,4 @@
-from src.page_object.locators import LogInLocators
+from data.locators import LogInLocators
 from selenium.webdriver.common.keys import Keys
 
 

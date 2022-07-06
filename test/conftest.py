@@ -1,4 +1,4 @@
-from src.test_base.WebDriverSetup import driver_setup
+from src.test_base.utils import driver_setup
 import pytest
 
 

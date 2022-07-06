@@ -1,5 +1,5 @@
-from src.page_object.locators import SearchHotelsFormLocators
-from utils.functions import set_travellers_number
+from data.locators import SearchHotelsFormLocators
+from lib.pages_utilities import set_travellers_number
 
 
 class SearchHotelForm:

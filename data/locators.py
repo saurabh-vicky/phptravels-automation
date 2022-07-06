@@ -63,6 +63,29 @@ class SearchFlightsFormLocators:
     search_btn = (By.XPATH, "//div[@class='col-xs-12 col-md-1']//button[@class='btn-primary btn btn-block']")
 
 
+class SearchToursFormLocators:
+    tour_destination_inactive = (By.XPATH, "//div[@id='s2id_autogen8']")
+    tour_destination_active = (By.XPATH, "//input[@class='select2-input select2-focused']")
+    tour_type_dropdown = (By.XPATH, "//span[contains(text(),'Select')]")
+    tour_type_input = (By.XPATH, "//div[@id='tourtype_chosen']//input[@class='chosen-search-input']")
+    tour_date = (By.CSS_SELECTOR, "#DateTours")
+    datepicker_nav_title_start = (By.XPATH, "//div[6]//nav[1]//div[2]")
+    datepicker_nav_title_years = (By.XPATH, "//div[@class='datepicker--nav-title']//i")
+    datepicker_nav_title_months = (By.XPATH, "//div[@class='datepicker--nav-title']")
+    adults_input_value = (By.XPATH, "//div[@class='col-md-12']//input[@name='adults']")
+    adults_add = (By.XPATH, "(//button[@class='btn btn-white bootstrap-touchspin-up '])[6]")
+    adults_sub = (By.XPATH, "(//button[@class='btn btn-white bootstrap-touchspin-down '])[6]")
+    search_btn = (By.XPATH, "//div[@class='col-md-2 col-xs-12']//button[@type='submit']")
+
+
+class SearchTabsLocators:
+    hotels_tab = (By.XPATH, "//a[@data-name='hotels']")
+    flights_tab = (By.XPATH, "//a[@data-name='flights']")
+    tours_tab = (By.XPATH, "//a[@data-name='tours']")
+    transfer_tab = (By.XPATH, "//a[@data-name='cars']")
+    visa_tab = (By.XPATH, "//a[@data-name='visa']")    
+
+
 class SearchResultsLocators:
     search_title = (By.XPATH, "//span[@class='text-primary']")
     change_search_btn = (By.XPATH, "//button[@data-target='#change-search']")
@@ -74,3 +97,4 @@ class UserAccountLocators:
     my_profile_tab = (By.LINK_TEXT, "My profile")
     wishlist_tab = (By.LINK_TEXT, "Wishlist")
     newsletter_tab = (By.LINK_TEXT, "Newsletter")
+
