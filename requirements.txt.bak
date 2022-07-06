@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+pytest==7.1.2
+requests==2.22.0
+selenium==4.3.0
+webdriver-manager==3.4.0
+=======
+pytest==5.2.2
+requests==2.22.0
+selenium==4.3.0
+webdriver-manager==3.4.0
+>>>>>>> 2a6224755ab6afc848f4512da4b62b6cf59573c3
